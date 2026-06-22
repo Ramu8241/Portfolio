@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<header>
+    <img src="{% static 'images/profile.jpeg' %}" 
+         alt="Sai Ram Srungaram Profile Photo"
+         class="profile-img">
+
+    <h1>Sai Ram Srungaram</h1>
+    <p>Software Developer</p>
+    <p>Mobile: 9392104312 |<a href="mailto:saira18637@gmail.com">Email: saira18637@gmail.com</a> </p>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Full-Stack Developer passionate about creating responsive and scalable web applications. I have experience working with technologies such as HTML, CSS, JavaScript, React, Node.js, and SQL through academic and personal projects. I am enthusiastic about learning, collaborating with teams, and building impactful digital products.
+    </p>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+    <p><h3>B.Tech-Information Technology</h3></p>  
+    <p>Vasireddy Venkatadri Institute of Technology, Guntur, India</p>
+    <p>Aug 2020 – Apr 2023</p>
+    <p></p>Current CGPA: 7/10</p>
+</h2>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Message Encryption & Decryption </h3>
+        <p>To Encrypt and decrypt the messages between the two users with a secret key.
+            Used Tinker module for GUI & Base64 encoding is used to convert bytes that have binary or text data into ASCII characters.
+            To encrypt and decrypt the data messaging through online.
+            It can be used as a mediator in between storing & retriving data from database in the form of an unintelligible text.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Image Tamper Detection and Recovery Using Watermarking Scheme</h3>
+        <p>Performed calculations using NumPy.
+           Used OpenCV to display and process images.
+           Implemented watermark embedding using Discrete Wavelet Transform (DWT).
+           Applied watermark extraction techniques.
+           Implemented tamper detection and image recovery using authentication and recovery bits.
+        </p>
+    </div>
+</section>
+<section id="certificate">
+    <h2>Certifications</h2>
+    <ul>
+        <li>Microsoft Certified: Azure Administrator Associate</li>
+        <li>CCNA R&S: Connecting Networks-Cisco</li>
+        <li>Introduction to IoT -Cisco</li>
+        <li>IIT Bombay - Certificate in Java Training</li>
+        <li>Java Full Stack Developer – VCUBE Software Solutions Pvt. Ltd., Hyderabad</li>
+    </ul>
+</section>
+
+</body>
+</html>
